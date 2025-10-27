@@ -96,3 +96,4 @@ mysql -u root -p college < student_backup.sql
 -- ==========================================
 -- ✅ END OF BACKUP AND RECOVERY DEMONSTRATION
 -- ==========================================
+Get-Content company_sql.sql | mysql -u root -p exam
